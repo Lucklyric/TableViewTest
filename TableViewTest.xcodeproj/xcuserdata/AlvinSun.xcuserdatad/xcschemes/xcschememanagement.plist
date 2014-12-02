@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>RefreshControlSample.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>TableViewTest.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -48,6 +53,16 @@
 			<true/>
 		</dict>
 		<key>A848C5151A2DAB4400A08BCA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A848C5271A2DC71E00A08BCA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A848C53F1A2DC71E00A08BCA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
