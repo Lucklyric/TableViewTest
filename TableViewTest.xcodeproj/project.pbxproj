@@ -19,6 +19,20 @@
 		A848C4C81A2D9E9C00A08BCA /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = A848C4C61A2D9E9C00A08BCA /* 2.png */; };
 		A848C4CA1A2DA00700A08BCA /* CustomTableCell.h in Sources */ = {isa = PBXBuildFile; fileRef = A848C4C91A2DA00700A08BCA /* CustomTableCell.h */; };
 		A848C4CF1A2DA12300A08BCA /* CustomTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A848C4CE1A2DA12300A08BCA /* CustomTableCell.m */; };
+		A848C4D91A2DA6C300A08BCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A848C4D81A2DA6C300A08BCA /* main.m */; };
+		A848C4DC1A2DA6C300A08BCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A848C4DB1A2DA6C300A08BCA /* AppDelegate.m */; };
+		A848C4DF1A2DA6C300A08BCA /* ImessageTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A848C4DE1A2DA6C300A08BCA /* ImessageTest.m */; };
+		A848C4E21A2DA6C300A08BCA /* Imessage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A848C4E01A2DA6C300A08BCA /* Imessage.storyboard */; };
+		A848C4E41A2DA6C300A08BCA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A848C4E31A2DA6C300A08BCA /* Images.xcassets */; };
+		A848C4E71A2DA6C300A08BCA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A848C4E51A2DA6C300A08BCA /* LaunchScreen.xib */; };
+		A848C4F31A2DA6C300A08BCA /* imessageTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A848C4F21A2DA6C300A08BCA /* imessageTestTests.m */; };
+		A848C5031A2DAB4400A08BCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A848C5021A2DAB4400A08BCA /* main.m */; };
+		A848C5061A2DAB4400A08BCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A848C5051A2DAB4400A08BCA /* AppDelegate.m */; };
+		A848C5091A2DAB4400A08BCA /* DeleteAddCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A848C5081A2DAB4400A08BCA /* DeleteAddCell.m */; };
+		A848C50C1A2DAB4400A08BCA /* DeleteAddCell.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A848C50A1A2DAB4400A08BCA /* DeleteAddCell.storyboard */; };
+		A848C50E1A2DAB4400A08BCA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A848C50D1A2DAB4400A08BCA /* Images.xcassets */; };
+		A848C5111A2DAB4400A08BCA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A848C50F1A2DAB4400A08BCA /* LaunchScreen.xib */; };
+		A848C51D1A2DAB4400A08BCA /* DeleteAddCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A848C51C1A2DAB4400A08BCA /* DeleteAddCellTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +42,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = A848C4991A2D8DDD00A08BCA;
 			remoteInfo = TableViewTest;
+		};
+		A848C4ED1A2DA6C300A08BCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A848C4921A2D8DDD00A08BCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A848C4D31A2DA6C300A08BCA;
+			remoteInfo = imessageTest;
+		};
+		A848C5171A2DAB4400A08BCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A848C4921A2D8DDD00A08BCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A848C4FD1A2DAB4400A08BCA;
+			remoteInfo = DeleteAddCell;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -50,6 +78,32 @@
 		A848C4C61A2D9E9C00A08BCA /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		A848C4C91A2DA00700A08BCA /* CustomTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableCell.h; sourceTree = "<group>"; };
 		A848C4CE1A2DA12300A08BCA /* CustomTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableCell.m; sourceTree = "<group>"; };
+		A848C4D41A2DA6C300A08BCA /* imessageTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imessageTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A848C4D71A2DA6C300A08BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A848C4D81A2DA6C300A08BCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A848C4DA1A2DA6C300A08BCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A848C4DB1A2DA6C300A08BCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A848C4DD1A2DA6C300A08BCA /* ImessageTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImessageTest.h; sourceTree = "<group>"; };
+		A848C4DE1A2DA6C300A08BCA /* ImessageTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImessageTest.m; sourceTree = "<group>"; };
+		A848C4E11A2DA6C300A08BCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Imessage.storyboard; sourceTree = "<group>"; };
+		A848C4E31A2DA6C300A08BCA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A848C4E61A2DA6C300A08BCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A848C4EC1A2DA6C300A08BCA /* imessageTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imessageTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A848C4F11A2DA6C300A08BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A848C4F21A2DA6C300A08BCA /* imessageTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = imessageTestTests.m; sourceTree = "<group>"; };
+		A848C4FE1A2DAB4400A08BCA /* DeleteAddCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeleteAddCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A848C5011A2DAB4400A08BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A848C5021A2DAB4400A08BCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A848C5041A2DAB4400A08BCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A848C5051A2DAB4400A08BCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A848C5071A2DAB4400A08BCA /* DeleteAddCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeleteAddCell.h; sourceTree = "<group>"; };
+		A848C5081A2DAB4400A08BCA /* DeleteAddCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeleteAddCell.m; sourceTree = "<group>"; };
+		A848C50B1A2DAB4400A08BCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/DeleteAddCell.storyboard; sourceTree = "<group>"; };
+		A848C50D1A2DAB4400A08BCA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A848C5101A2DAB4400A08BCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A848C5161A2DAB4400A08BCA /* DeleteAddCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeleteAddCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A848C51B1A2DAB4400A08BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A848C51C1A2DAB4400A08BCA /* DeleteAddCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeleteAddCellTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +121,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A848C4D11A2DA6C300A08BCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A848C4E91A2DA6C300A08BCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A848C4FB1A2DAB4400A08BCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A848C5131A2DAB4400A08BCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -75,6 +157,10 @@
 			children = (
 				A848C49C1A2D8DDD00A08BCA /* TableViewTest */,
 				A848C4B61A2D8DDD00A08BCA /* TableViewTestTests */,
+				A848C4D51A2DA6C300A08BCA /* imessageTest */,
+				A848C4EF1A2DA6C300A08BCA /* imessageTestTests */,
+				A848C4FF1A2DAB4400A08BCA /* DeleteAddCell */,
+				A848C5191A2DAB4400A08BCA /* DeleteAddCellTests */,
 				A848C49B1A2D8DDD00A08BCA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,6 +170,10 @@
 			children = (
 				A848C49A1A2D8DDD00A08BCA /* TableViewTest.app */,
 				A848C4B31A2D8DDD00A08BCA /* TableViewTestTests.xctest */,
+				A848C4D41A2DA6C300A08BCA /* imessageTest.app */,
+				A848C4EC1A2DA6C300A08BCA /* imessageTestTests.xctest */,
+				A848C4FE1A2DAB4400A08BCA /* DeleteAddCell.app */,
+				A848C5161A2DAB4400A08BCA /* DeleteAddCellTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,6 +224,88 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A848C4D51A2DA6C300A08BCA /* imessageTest */ = {
+			isa = PBXGroup;
+			children = (
+				A848C4DA1A2DA6C300A08BCA /* AppDelegate.h */,
+				A848C4DB1A2DA6C300A08BCA /* AppDelegate.m */,
+				A848C4DD1A2DA6C300A08BCA /* ImessageTest.h */,
+				A848C4DE1A2DA6C300A08BCA /* ImessageTest.m */,
+				A848C4E01A2DA6C300A08BCA /* Imessage.storyboard */,
+				A848C4E31A2DA6C300A08BCA /* Images.xcassets */,
+				A848C4E51A2DA6C300A08BCA /* LaunchScreen.xib */,
+				A848C4D61A2DA6C300A08BCA /* Supporting Files */,
+			);
+			path = imessageTest;
+			sourceTree = "<group>";
+		};
+		A848C4D61A2DA6C300A08BCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A848C4D71A2DA6C300A08BCA /* Info.plist */,
+				A848C4D81A2DA6C300A08BCA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A848C4EF1A2DA6C300A08BCA /* imessageTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				A848C4F21A2DA6C300A08BCA /* imessageTestTests.m */,
+				A848C4F01A2DA6C300A08BCA /* Supporting Files */,
+			);
+			path = imessageTestTests;
+			sourceTree = "<group>";
+		};
+		A848C4F01A2DA6C300A08BCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A848C4F11A2DA6C300A08BCA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A848C4FF1A2DAB4400A08BCA /* DeleteAddCell */ = {
+			isa = PBXGroup;
+			children = (
+				A848C5041A2DAB4400A08BCA /* AppDelegate.h */,
+				A848C5051A2DAB4400A08BCA /* AppDelegate.m */,
+				A848C5071A2DAB4400A08BCA /* DeleteAddCell.h */,
+				A848C5081A2DAB4400A08BCA /* DeleteAddCell.m */,
+				A848C50A1A2DAB4400A08BCA /* DeleteAddCell.storyboard */,
+				A848C50D1A2DAB4400A08BCA /* Images.xcassets */,
+				A848C50F1A2DAB4400A08BCA /* LaunchScreen.xib */,
+				A848C5001A2DAB4400A08BCA /* Supporting Files */,
+			);
+			path = DeleteAddCell;
+			sourceTree = "<group>";
+		};
+		A848C5001A2DAB4400A08BCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A848C5011A2DAB4400A08BCA /* Info.plist */,
+				A848C5021A2DAB4400A08BCA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A848C5191A2DAB4400A08BCA /* DeleteAddCellTests */ = {
+			isa = PBXGroup;
+			children = (
+				A848C51C1A2DAB4400A08BCA /* DeleteAddCellTests.m */,
+				A848C51A1A2DAB4400A08BCA /* Supporting Files */,
+			);
+			path = DeleteAddCellTests;
+			sourceTree = "<group>";
+		};
+		A848C51A1A2DAB4400A08BCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A848C51B1A2DAB4400A08BCA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -172,6 +344,76 @@
 			productReference = A848C4B31A2D8DDD00A08BCA /* TableViewTestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		A848C4D31A2DA6C300A08BCA /* imessageTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A848C4F41A2DA6C300A08BCA /* Build configuration list for PBXNativeTarget "imessageTest" */;
+			buildPhases = (
+				A848C4D01A2DA6C300A08BCA /* Sources */,
+				A848C4D11A2DA6C300A08BCA /* Frameworks */,
+				A848C4D21A2DA6C300A08BCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = imessageTest;
+			productName = imessageTest;
+			productReference = A848C4D41A2DA6C300A08BCA /* imessageTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A848C4EB1A2DA6C300A08BCA /* imessageTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A848C4F71A2DA6C300A08BCA /* Build configuration list for PBXNativeTarget "imessageTestTests" */;
+			buildPhases = (
+				A848C4E81A2DA6C300A08BCA /* Sources */,
+				A848C4E91A2DA6C300A08BCA /* Frameworks */,
+				A848C4EA1A2DA6C300A08BCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A848C4EE1A2DA6C300A08BCA /* PBXTargetDependency */,
+			);
+			name = imessageTestTests;
+			productName = imessageTestTests;
+			productReference = A848C4EC1A2DA6C300A08BCA /* imessageTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A848C4FD1A2DAB4400A08BCA /* DeleteAddCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A848C51E1A2DAB4400A08BCA /* Build configuration list for PBXNativeTarget "DeleteAddCell" */;
+			buildPhases = (
+				A848C4FA1A2DAB4400A08BCA /* Sources */,
+				A848C4FB1A2DAB4400A08BCA /* Frameworks */,
+				A848C4FC1A2DAB4400A08BCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeleteAddCell;
+			productName = DeleteAddCell;
+			productReference = A848C4FE1A2DAB4400A08BCA /* DeleteAddCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A848C5151A2DAB4400A08BCA /* DeleteAddCellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A848C5211A2DAB4400A08BCA /* Build configuration list for PBXNativeTarget "DeleteAddCellTests" */;
+			buildPhases = (
+				A848C5121A2DAB4400A08BCA /* Sources */,
+				A848C5131A2DAB4400A08BCA /* Frameworks */,
+				A848C5141A2DAB4400A08BCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A848C5181A2DAB4400A08BCA /* PBXTargetDependency */,
+			);
+			name = DeleteAddCellTests;
+			productName = DeleteAddCellTests;
+			productReference = A848C5161A2DAB4400A08BCA /* DeleteAddCellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -187,6 +429,20 @@
 					A848C4B21A2D8DDD00A08BCA = {
 						CreatedOnToolsVersion = 6.1;
 						TestTargetID = A848C4991A2D8DDD00A08BCA;
+					};
+					A848C4D31A2DA6C300A08BCA = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					A848C4EB1A2DA6C300A08BCA = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = A848C4D31A2DA6C300A08BCA;
+					};
+					A848C4FD1A2DAB4400A08BCA = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					A848C5151A2DAB4400A08BCA = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = A848C4FD1A2DAB4400A08BCA;
 					};
 				};
 			};
@@ -205,6 +461,10 @@
 			targets = (
 				A848C4991A2D8DDD00A08BCA /* TableViewTest */,
 				A848C4B21A2D8DDD00A08BCA /* TableViewTestTests */,
+				A848C4D31A2DA6C300A08BCA /* imessageTest */,
+				A848C4EB1A2DA6C300A08BCA /* imessageTestTests */,
+				A848C4FD1A2DAB4400A08BCA /* DeleteAddCell */,
+				A848C5151A2DAB4400A08BCA /* DeleteAddCellTests */,
 			);
 		};
 /* End PBXProject section */
@@ -224,6 +484,40 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A848C4B11A2D8DDD00A08BCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A848C4D21A2DA6C300A08BCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A848C4E21A2DA6C300A08BCA /* Imessage.storyboard in Resources */,
+				A848C4E71A2DA6C300A08BCA /* LaunchScreen.xib in Resources */,
+				A848C4E41A2DA6C300A08BCA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A848C4EA1A2DA6C300A08BCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A848C4FC1A2DAB4400A08BCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A848C50C1A2DAB4400A08BCA /* DeleteAddCell.storyboard in Resources */,
+				A848C5111A2DAB4400A08BCA /* LaunchScreen.xib in Resources */,
+				A848C50E1A2DAB4400A08BCA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A848C5141A2DAB4400A08BCA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,6 +547,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A848C4D01A2DA6C300A08BCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A848C4DF1A2DA6C300A08BCA /* ImessageTest.m in Sources */,
+				A848C4DC1A2DA6C300A08BCA /* AppDelegate.m in Sources */,
+				A848C4D91A2DA6C300A08BCA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A848C4E81A2DA6C300A08BCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A848C4F31A2DA6C300A08BCA /* imessageTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A848C4FA1A2DAB4400A08BCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A848C5091A2DAB4400A08BCA /* DeleteAddCell.m in Sources */,
+				A848C5061A2DAB4400A08BCA /* AppDelegate.m in Sources */,
+				A848C5031A2DAB4400A08BCA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A848C5121A2DAB4400A08BCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A848C51D1A2DAB4400A08BCA /* DeleteAddCellTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -260,6 +590,16 @@
 			isa = PBXTargetDependency;
 			target = A848C4991A2D8DDD00A08BCA /* TableViewTest */;
 			targetProxy = A848C4B41A2D8DDD00A08BCA /* PBXContainerItemProxy */;
+		};
+		A848C4EE1A2DA6C300A08BCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A848C4D31A2DA6C300A08BCA /* imessageTest */;
+			targetProxy = A848C4ED1A2DA6C300A08BCA /* PBXContainerItemProxy */;
+		};
+		A848C5181A2DAB4400A08BCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A848C4FD1A2DAB4400A08BCA /* DeleteAddCell */;
+			targetProxy = A848C5171A2DAB4400A08BCA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -276,6 +616,38 @@
 			isa = PBXVariantGroup;
 			children = (
 				A848C4AD1A2D8DDD00A08BCA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		A848C4E01A2DA6C300A08BCA /* Imessage.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A848C4E11A2DA6C300A08BCA /* Base */,
+			);
+			name = Imessage.storyboard;
+			sourceTree = "<group>";
+		};
+		A848C4E51A2DA6C300A08BCA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A848C4E61A2DA6C300A08BCA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		A848C50A1A2DAB4400A08BCA /* DeleteAddCell.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A848C50B1A2DAB4400A08BCA /* Base */,
+			);
+			name = DeleteAddCell.storyboard;
+			sourceTree = "<group>";
+		};
+		A848C50F1A2DAB4400A08BCA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A848C5101A2DAB4400A08BCA /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -413,6 +785,122 @@
 			};
 			name = Release;
 		};
+		A848C4F51A2DA6C300A08BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = imessageTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A848C4F61A2DA6C300A08BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = imessageTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A848C4F81A2DA6C300A08BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = imessageTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/imessageTest.app/imessageTest";
+			};
+			name = Debug;
+		};
+		A848C4F91A2DA6C300A08BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = imessageTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/imessageTest.app/imessageTest";
+			};
+			name = Release;
+		};
+		A848C51F1A2DAB4400A08BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DeleteAddCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A848C5201A2DAB4400A08BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DeleteAddCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A848C5221A2DAB4400A08BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DeleteAddCellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeleteAddCell.app/DeleteAddCell";
+			};
+			name = Debug;
+		};
+		A848C5231A2DAB4400A08BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DeleteAddCellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeleteAddCell.app/DeleteAddCell";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -438,6 +926,38 @@
 			buildConfigurations = (
 				A848C4C11A2D8DDD00A08BCA /* Debug */,
 				A848C4C21A2D8DDD00A08BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A848C4F41A2DA6C300A08BCA /* Build configuration list for PBXNativeTarget "imessageTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A848C4F51A2DA6C300A08BCA /* Debug */,
+				A848C4F61A2DA6C300A08BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A848C4F71A2DA6C300A08BCA /* Build configuration list for PBXNativeTarget "imessageTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A848C4F81A2DA6C300A08BCA /* Debug */,
+				A848C4F91A2DA6C300A08BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A848C51E1A2DAB4400A08BCA /* Build configuration list for PBXNativeTarget "DeleteAddCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A848C51F1A2DAB4400A08BCA /* Debug */,
+				A848C5201A2DAB4400A08BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A848C5211A2DAB4400A08BCA /* Build configuration list for PBXNativeTarget "DeleteAddCellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A848C5221A2DAB4400A08BCA /* Debug */,
+				A848C5231A2DAB4400A08BCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

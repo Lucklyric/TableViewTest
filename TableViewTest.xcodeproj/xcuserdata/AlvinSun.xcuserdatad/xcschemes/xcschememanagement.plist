@@ -4,10 +4,20 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>DeleteAddCell.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>TableViewTest.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>imessageTest.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -18,6 +28,26 @@
 			<true/>
 		</dict>
 		<key>A848C4B21A2D8DDD00A08BCA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A848C4D31A2DA6C300A08BCA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A848C4EB1A2DA6C300A08BCA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A848C4FD1A2DAB4400A08BCA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A848C5151A2DAB4400A08BCA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
