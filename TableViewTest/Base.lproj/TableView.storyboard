@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="CUZ-bh-7KC">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <scenes>
+        <!--Table View Controller-->
+        <scene sceneID="HX0-hT-Obh">
+            <objects>
+                <tableViewController id="CUZ-bh-7KC" customClass="TableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="wa0-1q-Zl3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" placeholder="Search For Name" showsScopeBar="YES" id="7ww-dn-dXd">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="88"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <scopeButtonTitles>
+                                <string>中文</string>
+                                <string>英文</string>
+                            </scopeButtonTitles>
+                            <connections>
+                                <outlet property="delegate" destination="CUZ-bh-7KC" id="dsH-QG-ABk"/>
+                            </connections>
+                        </searchBar>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CellIdentifier" id="APx-I4-HzA" customClass="CustomTableCell">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="APx-I4-HzA" id="GIX-2P-tAg">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3wo-Rw-FiI">
+                                            <rect key="frame" x="18" y="11" width="42" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Swe-w6-ko1">
+                                            <rect key="frame" x="190" y="3" width="55" height="36"/>
+                                        </imageView>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="mImage" destination="Swe-w6-ko1" id="cUW-Mx-VCw"/>
+                                    <outlet property="mLabel" destination="3wo-Rw-FiI" id="ifT-r8-6Oe"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="CUZ-bh-7KC" id="kJm-Ac-ggz"/>
+                            <outlet property="delegate" destination="CUZ-bh-7KC" id="KjL-tx-3KZ"/>
+                        </connections>
+                    </tableView>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="uu4-bq-Tba" id="wMn-Rb-wAG"/>
+                        <outlet property="serachBar" destination="wa0-1q-Zl3" id="jDJ-SP-3uB"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TNu-Ym-pdh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="uu4-bq-Tba">
+                    <connections>
+                        <outlet property="delegate" destination="CUZ-bh-7KC" id="B8w-Cm-RNX"/>
+                        <outlet property="searchBar" destination="7ww-dn-dXd" id="DKv-VN-QLo"/>
+                        <outlet property="searchContentsController" destination="CUZ-bh-7KC" id="CQC-ZN-bUX"/>
+                        <outlet property="searchResultsDataSource" destination="CUZ-bh-7KC" id="kIh-Hf-a0e"/>
+                        <outlet property="searchResultsDelegate" destination="CUZ-bh-7KC" id="JKa-MT-Lic"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="261" y="386"/>
+        </scene>
+    </scenes>
+</document>
